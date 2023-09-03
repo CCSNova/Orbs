@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:water_bucket"
+    },
+    "3": {
+      "item": "minecraft:potion"
+    },
+    "4": {
+      "item": "orbs:orb"
+    },
+    "5": {
+      "item": "minecraft:potion"
+    },
+    "7": {
+      "item": "minecraft:potion"
+    }
+  },
+  "result": {
+    "item": "orbs:aqua_orb",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.nova.orbs.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"OrbsModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

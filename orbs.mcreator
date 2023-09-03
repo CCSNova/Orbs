@@ -1,0 +1,241 @@
+{
+  "mod_elements": [
+    {
+      "name": "Orb",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nova/orbs/item/OrbItem.java",
+          "src/main/resources/assets/orbs/models/item/orb.json"
+        ]
+      }
+    },
+    {
+      "name": "FireOrb",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_orb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/orbs/models/item/fire_orb.json",
+          "src/main/java/net/nova/orbs/item/FireOrbItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OrbHandler",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_orb_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nova/orbs/procedures/OrbHandlerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireOrbRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_orb_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/orbs/recipes/fire_orb_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RootAdvancement",
+      "type": "achievement",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "root_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/orbs/advancements/root_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "FireOrbAdvancement",
+      "type": "achievement",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_orb_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/orbs/advancements/fire_orb_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "FulfillingOrb",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fulfilling_orb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/orbs/models/item/fulfilling_orb.json",
+          "src/main/java/net/nova/orbs/item/FulfillingOrbItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FulfillingOrbRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fulfilling_orb_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/orbs/recipes/fulfilling_orb_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AquaOrb",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aqua_orb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/orbs/models/item/aqua_orb.json",
+          "src/main/java/net/nova/orbs/item/AquaOrbItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AquaOrbRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aqua_orb_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/orbs/recipes/aqua_orb_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HealthPoint",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_point",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/orbs/models/item/health_point.json",
+          "src/main/java/net/nova/orbs/item/HealthPointItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LightingOrb",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighting_orb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nova/orbs/item/LightingOrbItem.java",
+          "src/main/resources/assets/orbs/models/item/lighting_orb.json"
+        ]
+      }
+    },
+    {
+      "name": "OrbRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orb_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/orbs/recipes/orb_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.orbs.health_point": "Health Point",
+      "item.orbs.lighting_orb": "Lighting Orb",
+      "item.orbs.aqua_orb": "Aqua Orb",
+      "advancements.root_advancement.descr": "Obtain an orb, maybe you can do something with it?",
+      "advancements.fire_orb_advancement.descr": "Obtain a fire orb, you can now shoot fire!",
+      "item.orbs.fulfilling_orb": "Fulfilling Orb",
+      "advancements.fire_orb_advancement.title": "Fire Tricks",
+      "advancements.root_advancement.title": "Orbs",
+      "item.orbs.orb": "Orb",
+      "item.orbs.fire_orb": "Fire Orb"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "orbs",
+    "modName": "Orbs",
+    "version": "0.1.0",
+    "description": "Adds magical orbs to your game, funky O-o",
+    "author": "Nova",
+    "websiteURL": "https://example.com",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.nova.orbs",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

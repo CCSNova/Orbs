@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "orbs",
+  "version": "0.1.0",
+  "name": "Orbs",
+  "description": "Adds magical orbs to your game, funky O-o",
+  "authors": [
+    "Nova"
+  ],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.nova.orbs.OrbsMod"
+    ],
+    "client": [
+      "net.nova.orbs.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "orbs.mixins.json"
+  ]
+}

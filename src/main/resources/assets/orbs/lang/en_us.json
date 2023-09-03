@@ -1,0 +1,12 @@
+{
+  "item.orbs.health_point": "Health Point",
+  "item.orbs.lighting_orb": "Lighting Orb",
+  "item.orbs.aqua_orb": "Aqua Orb",
+  "advancements.root_advancement.descr": "Obtain an orb, maybe you can do something with it?",
+  "advancements.fire_orb_advancement.descr": "Obtain a fire orb, you can now shoot fire!",
+  "item.orbs.fulfilling_orb": "Fulfilling Orb",
+  "advancements.fire_orb_advancement.title": "Fire Tricks",
+  "advancements.root_advancement.title": "Orbs",
+  "item.orbs.orb": "Orb",
+  "item.orbs.fire_orb": "Fire Orb"
+}
